@@ -1,0 +1,156 @@
+html{
+    height: 100%;
+}
+body{
+    height:100%;
+    background-color: f7f8fc;
+    
+}
+.container{
+    background-color: white;
+    border:solid #dce7ff 20px;
+    border-radius: 3px;
+    overflow:hidden ;
+    font-family: 'open sans', sans-serif;
+    display: inline-block;
+    left: 20%;
+    position: absolute;
+    top: 20%;
+
+}
+.container2{
+    float: left;
+    border-right: 1px solid lightgrey;
+    width: 40%;
+
+
+}
+.container3{
+    float: left;
+    width:53%;
+   
+}
+
+
+.btn{
+    background-color: white;
+    color: rgb(20, 28, 44);
+    border: 1px solid lightgray;
+    padding-top: 7px;
+    border-radius: 2px;
+    margin-top: 40px;
+    margin-left: 8%;
+    width: 84%;
+    ;
+}
+
+.sign-i{
+    position: relative;
+    top:-5px;
+    font-weight: bold;
+    
+}
+.google-image{
+    height: 20px;
+    width: 20px;
+
+}
+.or{
+text-align: center;
+}
+.form-control{
+    margin: 10px ;
+}
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: rgb(141, 140, 140);
+    font-size: 14px;
+}
+.forgot_password{
+    font-size: 13px;
+    text-decoration: none;
+}
+.sign-up{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 45px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.sign_up{
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+.log-in{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 201px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #141c2c;
+    border-radius: 2px solid #141c2c ;
+    color: white;
+    width: 83%;
+    margin-left: 30px;
+}
+.inp {
+    background-color: transparent;
+    border: 2px solid #ecf2ff;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 1px;
+    margin-top: -11px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: calc(100% - 152px);
+}
+.empass{
+    font-weight: bold;
+    margin-left: 20px;
+}
+p{
+    overflow: hidden;
+    font-size: 11px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+}
+.feature{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+h3{
+    font-weight: bold;
+}
+.feat{
+    margin-top:-14px;
+}
+
+
+.checkbox-container input{margin-left: 29px;}
+.forgot {float: right;
+    margin-top: 4px;
+    margin-right: 13px;}
+
+@media screen and (max-width: 768px){
+
+    .container { left :0 ; top : 0 }
+    .container2{
+        width:99%;
+        border-bottom: 1px solid lightgrey;
+        border-right: none;
+    }
+    .container3
+    {
+        width:100%;
+    }
+
+
+}
